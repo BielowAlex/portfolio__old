@@ -1,0 +1,31 @@
+@import "Const";
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 10px;
+
+  h2 {
+    color: $txt_color2;
+    margin-bottom: 10px;
+    font-size: $h2_fs;
+    font-weight: bold;
+    &._none{
+      display: none;
+      opacity: 0;
+    }
+  }
+}
+
+.layer {
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+}
