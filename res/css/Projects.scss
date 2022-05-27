@@ -32,10 +32,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 50px;
     row-gap: 2px;
     column-gap: 2px;
     margin: 40px 20px;
+
+    &.react{
+      display: none;
+      &._active_list{
+        display: flex;
+      }
+    }
+    &.js{
+      display: none;
+      &._active_list{
+        display: flex;
+      }
+    }
 
 
     .project {

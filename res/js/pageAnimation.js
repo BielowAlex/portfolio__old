@@ -5,45 +5,7 @@ const carH2 = document.querySelector('.car_h2');
 
 
 
-//============================================================================\\
-//============================Title_Anim======================================\\
-//============================================================================\\
 
-//
-// const titleList = document.querySelectorAll('.title');
-// const lines = document.querySelectorAll('.line');
-// // console.log(lines);
-//
-// for (let i = 0;i<titleList.length;i++) {
-//     titleList[i].onmouseover =function (){
-//         lines[i].classList.add('line_anim');
-//        titleList[i].onmouseleave = () => {
-//             lines[i].classList.remove('line_anim');
-//         }
-//     }
-//
-// }
-
-
-
-// for (let i = 0; i<project.length;i++) {
-//     project[i].onmouseover = function (){
-//         // project.classList.add('project_anim');
-//         projH2[i].classList.add('proj_h2_anim');
-//         project[i].onmouseleave = function (){
-//             // project.classList.remove('project_anim');
-//             projH2[i].classList.remove('proj_h2_anim');
-//         }
-//
-//     }
-// }
-//============================================================================\\
-//============================Title_Anim======================================\\
-//============================================================================\\
-
-//============================================================================\\
-//============================Project=========================================\\
-//============================================================================\\
 const projImgList = document.querySelectorAll('.proj_img');
 const projLineList = document.querySelectorAll('.proj_line');
 const projectsList = document.querySelectorAll('.project');
@@ -75,7 +37,6 @@ const start = pageYOffset;
 const wrapBio = document.querySelector('.wrap');
 
 window.addEventListener('scroll',function (){
-    console.log(pageYOffset);
     if(pageYOffset>start){
         wrapBio.classList.add('hide_scroll');
     }else {
