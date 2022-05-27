@@ -930,6 +930,10 @@ body {
     height: 200px;
   }
 
+  .project_wrap .title h2 {
+    font-size: 18px;
+  }
+
   .bio > .title {
     font-size: 18px;
     text-align: left;
@@ -937,6 +941,10 @@ body {
   }
 
   .bio p {
+    font-size: 14px;
+  }
+
+  .bio p a {
     font-size: 14px;
   }
 
@@ -1014,6 +1022,16 @@ body {
 
   .carrousel_wrap .title {
     width: 200px;
+  }
+
+  .bio p {
+    font-size: 14px;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .bio {
+    width: 100%;
   }
 }
 ._none {

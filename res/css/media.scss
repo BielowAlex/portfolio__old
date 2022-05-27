@@ -1,8 +1,8 @@
-@media screen and (max-width: 1050px){
-  .carrousel{
+@media screen and (max-width: 1050px) {
+  .carrousel {
     width: 800px;
   }
-  .skill .skill_list{
+  .skill .skill_list {
     width: 800px;
   }
 
@@ -36,14 +36,14 @@
     height: 100px;
     width: 100px;
   }
-  .skill .skill_list{
+  .skill .skill_list {
     width: 600px;
   }
   .carrousel .img_list .list_el img {
     width: 100px;
     height: 100px;
   }
-  .carrousel{
+  .carrousel {
     width: 600px;
   }
 
@@ -60,13 +60,13 @@
     }
   }
 
-  .carrousel{
+  .carrousel {
     height: 180px;
   }
   .title h2 {
     font-size: 32px;
   }
-  .wrap{
+  .wrap {
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 20px;
@@ -78,7 +78,7 @@
     height: 50px;
     width: 50px;
   }
-  .carrousel{
+  .carrousel {
     width: 400px;
   }
   .carrousel .img_list .list_el h3 {
@@ -88,7 +88,7 @@
     width: 50px;
     height: 50px;
   }
-  .carrousel{
+  .carrousel {
     height: 120px;
   }
   .carrousel_wrap .title h2 {
@@ -104,8 +104,8 @@
     height: 200px;
   }
 
-  .wrap .title h2{
-
+  .project_wrap .title h2 {
+    font-size: 18px;
   }
 
   .bio > .title {
@@ -116,7 +116,10 @@
   .bio p {
     font-size: 14px;
   }
-  .rating i{
+  .bio p a {
+    font-size: 14px;
+  }
+  .rating i {
     font-size: 10px;
   }
 
@@ -167,7 +170,7 @@
     width: 60px;
   }
 
-  .nav .menu{
+  .nav .menu {
     justify-content: start;
   }
 
@@ -179,7 +182,7 @@
 
 @media screen and (max-width: 520px) {
   .skill .skill_list {
-    width:300px;
+    width: 300px;
   }
   .carrousel {
     height: 100px;
@@ -187,5 +190,13 @@
   }
   .carrousel_wrap .title {
     width: 200px;
+  }
+  .bio p {
+    font-size: 14px;
+    text-align: justify;
+    width: 100%;
+  }
+  .bio  {
+    width: 100%;
   }
 }
