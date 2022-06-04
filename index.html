@@ -19,6 +19,14 @@
     <canvas id="canvasLayer"></canvas>
     <div class="layer" id="top">
 
+        <header>
+            <a href="#">
+                <img src="res/img/logo.png" alt="logo">
+            </a>
+
+            <a href="#">Portfolio of Alexander Drohomyretskyi</a>
+        </header>
+
         <nav class="nav">
             <ul class="menu">
                 <li>
@@ -50,18 +58,20 @@
                     </a>
                 </li>
                 <li>
-                    <span class="_lng _eng ">Languages</span>
-                    <span class="_lng _ukr _none">Мови</span>
-                    <span class="_lng _pl _none">Języki</span>
-                    <i class="fa-solid fa-angle-down"></i>
-                    <i class="fa-solid fa-angle-up"></i>
-                    <ul class="lang_selector">
-                        <li class="eng">ENG</li>
-                        <li class="pl">PL</li>
-                        <li class="ukr">UKR</li>
-                    </ul>
+
+                        <span class="eng">ENG</span>
+                    <b>/</b>
+                        <span class="pl">PL</span>
+                    <b>/</b>
+                        <span class="ukr">UKR</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="res/img/logo.png" alt="logo">
+                    </a>
                 </li>
             </ul>
+
 
 
         </nav>
@@ -94,7 +104,8 @@
                     у Польському університеті за спеціалізацією Інформатика протягом 2 років. Але через війну в моїй
                     країні продовжити навчання не зміг.
                     Окрім університету прохожу курси у Львівській IT школі <a href="https://owu.com.ua" target="_blank">"OctenWeb"</a>,
-                    де і навчаюсь зараз. За цей час я навчився вирішувати різні проблеми, засвоїв кілька мов програмування і практикуюсь
+                    де і навчаюсь зараз. За цей час я навчився вирішувати різні проблеми, засвоїв кілька мов
+                    програмування і практикуюсь
                     до сьогодні.
                 </p>
                 <p class="_anim_item _anim_no_hide _lng _pl _none">
@@ -505,7 +516,8 @@
                                     <span class="_lng _ukr _none">Відкрити</span>
                                     <span class="_lng _pl _none">Otwórz</span>
                                 </a>
-                                <a href="https://github.com/BielowAlex/react_pizza" class="proj_btn_neon" target="_blank">
+                                <a href="https://github.com/BielowAlex/react_pizza" class="proj_btn_neon"
+                                   target="_blank">
                                     <span class="neon_line neon_line__top"></span>
                                     <span class="neon_line neon_line__bottom"></span>
                                     <span class="neon_line neon_line__left"></span>
@@ -549,7 +561,8 @@
                                     <span class="_lng _ukr _none">Відкрити</span>
                                     <span class="_lng _pl _none">Otwórz</span>
                                 </a>
-                                <a href="https://github.com/BielowAlex/Landing_page_Denis_Novak" class="proj_btn_neon" target="_blank">
+                                <a href="https://github.com/BielowAlex/Landing_page_Denis_Novak" class="proj_btn_neon"
+                                   target="_blank">
                                     <span class="neon_line neon_line__top"></span>
                                     <span class="neon_line neon_line__bottom"></span>
                                     <span class="neon_line neon_line__left"></span>
@@ -674,7 +687,8 @@
                                     <span class="_lng _ukr _none">Відкрити</span>
                                     <span class="_lng _pl _none">Otwórz</span>
                                 </a>
-                                <a href="https://github.com/BielowAlex/nft_marketplace" class="proj_btn_neon" target="_blank">
+                                <a href="https://github.com/BielowAlex/nft_marketplace" class="proj_btn_neon"
+                                   target="_blank">
                                     <span class="neon_line neon_line__top"></span>
                                     <span class="neon_line neon_line__bottom"></span>
                                     <span class="neon_line neon_line__left"></span>
@@ -757,14 +771,14 @@
     let categories = document.querySelectorAll('.categories');
 
 
-    const swipe = ()=>{
-        if(js.classList.contains('_active_list')){
+    const swipe = () => {
+        if (js.classList.contains('_active_list')) {
             js.classList.remove('_active_list');
             react.classList.add('_active_list');
             for (const category of categories) {
                 category.innerHTML = 'React'
             }
-        }else{
+        } else {
             js.classList.add('_active_list');
             react.classList.remove('_active_list');
             for (const category of categories) {
