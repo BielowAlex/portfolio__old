@@ -118,7 +118,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 20%;
+  width: 25%;
   z-index: 100;
   display: flex;
   justify-content: center;
@@ -146,11 +146,12 @@ body {
 .nav .menu li {
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
   justify-content: center;
   align-items: center;
   column-gap: 5px;
   padding: 40px;
-  border-right: 1px solid #c01723;
   color: #c01723;
   text-transform: uppercase;
   font-weight: bold;
