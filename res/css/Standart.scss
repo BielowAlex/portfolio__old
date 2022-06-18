@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
+  background: black;
 }
 
 .title {
@@ -25,8 +26,9 @@ body {
 }
 
 .layer {
+  z-index: -2;
   max-width: 1280px;
   margin: 0 auto;
   overflow: hidden;
-  background: #000000;
+  background: rgba(0, 0, 0, 0.71);
 }
