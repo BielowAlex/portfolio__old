@@ -1,5 +1,5 @@
-{
-  "products":[
+
+  [
     {
       "id": 0,
       "name": "Men's Nike Blazer Mid Suede",
@@ -74,4 +74,4 @@
     }
   ]
 
-}
+
