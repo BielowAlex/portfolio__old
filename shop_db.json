@@ -1,0 +1,77 @@
+{
+  "products":[
+    {
+      "id": 0,
+      "name": "Men's Nike Blazer Mid Suede",
+      "price": 1699,
+      "imageUrl": "img/products/1.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Men's Nike Air Max 270",
+      "price": 1699,
+      "imageUrl": "img/products/2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Men's Nike Blazer Mid Suede",
+      "price": 999,
+      "imageUrl": "img/products/3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Puma X Aka Boku Future Rider",
+      "price": 999,
+      "imageUrl": "img/products/4.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Men's Кроссовки Under Armour Curry 8",
+      "price": 1999,
+      "imageUrl": "img/products/5.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Men's Nike Kyrie 7",
+      "price": 1499,
+      "imageUrl": "img/products/6.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Men's Jordan Air Jordan 11",
+      "price": 1999,
+      "imageUrl": "img/products/7.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Men's Nike LeBron XVIII",
+      "price": 2199,
+      "imageUrl": "img/products/8.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Men's Nike Lebron XVIII Low",
+      "price": 1549,
+      "imageUrl": "img/products/9.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Мужские Кроссовки Nike Blazer Mid Suede",
+      "price": 1699,
+      "imageUrl": "img/products/1.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Puma X Aka Boku Future Rider",
+      "price": 999,
+      "imageUrl": "img/products/4.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Men's Nike Kyrie Flytrap IVe",
+      "price": 1699,
+      "imageUrl": "img/products/10.jpg"
+    }
+  ]
+
+}
