@@ -76,7 +76,7 @@
       "id": 9,
       "name": "Men's Sneakers Nike Blazer Mid Suede",
       "price": 1699,
-      "imageUrl": "img/products/1.jpg"
+      "imageUrl": "img/products/1.jpg",
       "maxSize":47,
       "minSize":38
     },
