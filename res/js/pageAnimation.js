@@ -13,13 +13,10 @@ const projectsList = document.querySelectorAll('.project');
 for (let i = 0;i<projectsList.length;i++) {
     projectsList[i].onmouseover = ()=>{
 
-        console.log('lol')
         projImgList[i].classList.add('proj_img_anim');
-        projLineList[i].classList.add('proj_line_anim');
     }
     projectsList[i].onmouseleave = ()=>{
         projImgList[i].classList.remove('proj_img_anim');
-        projLineList[i].classList.remove('proj_line_anim');
     }
 }
 
