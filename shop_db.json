@@ -4,73 +4,97 @@
       "id": 0,
       "name": "Men's Nike Blazer Mid Suede",
       "price": 1699,
-      "imageUrl": "img/products/1.jpg"
+      "imageUrl": "img/products/1.jpg",
+      "maxSize":48,
+      "minSize":37
     },
     {
       "id": 1,
       "name": "Men's Nike Air Max 270",
       "price": 1699,
-      "imageUrl": "img/products/2.jpg"
+      "imageUrl": "img/products/2.jpg",
+      "maxSize":46,
+      "minSize":41
     },
     {
       "id": 2,
-      "name": "Men's Nike Blazer Mid Suede",
+      "name": "Nike Blazer Mid Suede",
       "price": 999,
-      "imageUrl": "img/products/3.jpg"
+      "imageUrl": "img/products/3.jpg",
+      "maxSize":47,
+      "minSize":39
     },
     {
       "id": 3,
       "name": "Puma X Aka Boku Future Rider",
       "price": 999,
-      "imageUrl": "img/products/4.jpg"
+      "imageUrl": "img/products/4.jpg",
+      "maxSize":48,
+      "minSize":37
     },
     {
       "id": 4,
-      "name": "Men's Кроссовки Under Armour Curry 8",
+      "name": "Sneakers Under Armour Curry 8",
       "price": 1999,
-      "imageUrl": "img/products/5.jpg"
+      "imageUrl": "img/products/5.jpg",
+      "maxSize":47,
+      "minSize":37
     },
     {
       "id": 5,
       "name": "Men's Nike Kyrie 7",
       "price": 1499,
-      "imageUrl": "img/products/6.jpg"
+      "imageUrl": "img/products/6.jpg",
+      "maxSize":48,
+      "minSize":37
     },
     {
       "id": 6,
       "name": "Men's Jordan Air Jordan 11",
       "price": 1999,
-      "imageUrl": "img/products/7.jpg"
+      "imageUrl": "img/products/7.jpg",
+      "maxSize":48,
+      "minSize":41
     },
     {
       "id": 7,
       "name": "Men's Nike LeBron XVIII",
       "price": 2199,
-      "imageUrl": "img/products/8.jpg"
+      "imageUrl": "img/products/8.jpg",
+      "maxSize":45,
+      "minSize":39
     },
     {
       "id": 8,
       "name": "Men's Nike Lebron XVIII Low",
       "price": 1549,
-      "imageUrl": "img/products/9.jpg"
+      "imageUrl": "img/products/9.jpg",
+      "maxSize":48,
+      "minSize":37
     },
     {
       "id": 9,
-      "name": "Мужские Кроссовки Nike Blazer Mid Suede",
+      "name": "Men's Sneakers Nike Blazer Mid Suede",
       "price": 1699,
-      "imageUrl": "img/products/1.jpg"
+      "imageUrl": "img/products/1.jpg",
+      "maxSize":47,
+      "minSize":38
     },
     {
       "id": 10,
       "name": "Puma X Aka Boku Future Rider",
       "price": 999,
-      "imageUrl": "img/products/4.jpg"
+      "imageUrl": "img/products/4.jpg",
+      "maxSize":48,
+      "minSize":37
     },
     {
       "id": 11,
       "name": "Men's Nike Kyrie Flytrap IVe",
       "price": 1699,
-      "imageUrl": "img/products/10.jpg"
+      "imageUrl": "img/products/10.jpg",
+      "maxSize":44,
+      "minSize":39
     }
   ]
 
